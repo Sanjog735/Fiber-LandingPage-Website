@@ -16,6 +16,10 @@ This is a solution to the [Fiber Website challenge on Codewell](https://www.code
 
 ## Overview
 
+### ![Fiber](https://user-images.githubusercontent.com/61593168/223021534-55f94679-2f31-49c3-b645-f29c5cdd4f99.jpg)
+
+
+
 ### The challenge
 
 Users should be able to:
