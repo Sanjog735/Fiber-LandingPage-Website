@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://github.com/Sanjog735/Womble-NewsHomepage-UI)
+- Solution URL: (https://github.com/Sanjog735/Fiber-LandingPage-Website)
 - Live Site URL: (createportfolioswithfiber.netlify.app)
 
 ## My process
