@@ -1,0 +1,51 @@
+.footer {
+  background: $color-hero;
+  padding: 10rem 0;
+
+  .section--footer {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    grid-gap: 10rem;
+
+    @include respond(tab-port) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__content--box {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    a {
+      color: $color-blue;
+    }
+  }
+
+  &__link {
+    font-size: 1.8rem;
+
+    &--box {
+      display: flex;
+      justify-content: space-between;
+
+      @media (max-width: 31.25em) {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5rem;
+      }
+    }
+
+    &--head {
+      color: $color-black;
+      font-weight: 700;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+}

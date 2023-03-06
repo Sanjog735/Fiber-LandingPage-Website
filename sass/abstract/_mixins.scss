@@ -1,0 +1,26 @@
+@mixin respond($screen-size) {
+  @if ($screen-size == phone) {
+    // below 600 px
+    @media (max-width: 37.5em) {
+      @content;
+    }
+  }
+  @if ($screen-size == tab-port) {
+    // below 900 px
+    @media (max-width: 56.25em) {
+      @content;
+    }
+  }
+  @if ($screen-size == tab-land) {
+    // below 1200 px
+    @media (max-width: 75em) {
+      @content;
+    }
+  }
+  @if ($screen-size == big-desk) {
+    // above 18000 px +
+    @media (min-width: 112.5em) {
+      @content;
+    }
+  }
+}

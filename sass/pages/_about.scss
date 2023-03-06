@@ -1,0 +1,30 @@
+.about {
+  padding: 10rem 0;
+  &__why {
+    font-size: 2rem;
+    color: $color-blue;
+    font-weight: 700;
+  }
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2.8rem;
+
+    @include respond(phone) {
+      grid-template-columns: 1fr;
+    }
+
+    &--content {
+      display: grid;
+      grid-gap: 1.5rem;
+
+      img {
+        height: 3.8rem;
+      }
+
+      &-heading {
+        color: $color-black;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+.cta {
+  &--section {
+    background: $color-blue;
+    border-radius: 5px;
+
+    @media (max-width: 60.625em) {
+      // below 970px
+      padding-top: 5rem;
+    }
+  }
+
+  &__container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 3.8rem;
+    align-items: center;
+    padding: 0 5rem;
+
+    @include respond(tab-port) {
+      grid-template-columns: 1fr;
+    }
+
+    &--content {
+      h2,
+      p {
+        color: $color-white;
+      }
+      button {
+        background-color: $color-white;
+        color: $color-blue;
+
+        @include respond(tab-port) {
+          width: 100%;
+        }
+      }
+    }
+
+    &--img {
+      padding-top: 6rem;
+    }
+  }
+}
